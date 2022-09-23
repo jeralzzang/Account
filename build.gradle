@@ -22,9 +22,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    //redis client
     implementation 'org.redisson:redisson:3.17.1'
-    //embedded redis
     implementation('it.ozimov:embedded-redis:0.7.3'){
         exclude group: "org.slf4j", module: "slf4j-simple"
     }
